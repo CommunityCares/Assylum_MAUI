@@ -1,0 +1,31 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUICominityCares.Views.DonacionesCerrada"
+             Title="DonacionesCerrada">
+    <StackLayout>
+        <Button x:Name="btnVolver" Text="Volver" Clicked="btnVolver_Clicked" Margin="10" VerticalOptions="End" HorizontalOptions="CenterAndExpand"/>
+        <CollectionView x:Name="itemCollectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Text="{Binding donador.Address}" FontSize="12" />
+                        <Label Grid.Column="1" Text="{Binding donador.Region}" FontSize="12" />
+                        <Label Grid.Column="2" Text="{Binding donacion.DescriptionItems}" FontSize="16" />
+                        <Label Grid.Column="3" Text="{Binding donacion.DescriptionMonto}" FontSize="16" />
+                        <Label Grid.Column="4" Text="{Binding donacion.IsAnonymus}" FontSize="16" IsVisible="False" />
+
+                        
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUICominityCares
+build_property.ProjectDir = C:\Users\Rafael\Downloads\Movil\MAUICominityCares\MAUICominityCares\
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/Asilos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.Asilos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Asilos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Asilos.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/CampañasCerradas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.CampañasCerradas.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CampañasCerradas.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CampañasCerradas.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/CrearDonacion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.CrearDonacion.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CrearDonacion.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CrearDonacion.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/DonacionAccion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.DonacionAccion.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DonacionAccion.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DonacionAccion.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/DonacionesCerrada.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.DonacionesCerrada.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DonacionesCerrada.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DonacionesCerrada.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/DonacionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.DonacionView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DonacionView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DonacionView.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NewPage1.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/NewPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.NewPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NewPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NewPage2.xaml
+
+[C:/Users/Rafael/Downloads/Movil/MAUICominityCares/MAUICominityCares/Views/RegisterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUICominityCares.Views.RegisterView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterView.xaml

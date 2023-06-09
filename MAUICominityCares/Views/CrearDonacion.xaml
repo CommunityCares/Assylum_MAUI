@@ -1,0 +1,41 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUICominityCares.Views.CrearDonacion"
+             Title="CrearDonacion">
+    <StackLayout Padding="20">
+        
+        <Label Text="Registro de Donación" FontSize="20" HorizontalOptions="Center" />
+
+        <Label Text="Anonimo:" />
+        <CheckBox x:Name="AnonimoCheckbox" CheckedChanged="AnonimoCheckbox_CheckedChanged"/>
+        <Label Text="    " />
+
+        <Label Text="Item:" />
+        <CheckBox x:Name="ItemsCheckbox" CheckedChanged="ItemsCheckbox_CheckedChanged" />
+        <Label Text="    " />
+
+        <Label Text="Dinero:" />
+        <CheckBox x:Name="DineroCheckbox"  CheckedChanged="DineroCheckbox_CheckedChanged"/>
+        <Label Text="    " />
+
+        <Label x:Name="Monto" Text="Ingrese el Monto:" />
+        <Entry x:Name="MontoEntry" />
+        <Label Text="    " />
+
+        <Label x:Name="Descripcion" Text="Descripción de Artículo o articulos:" />
+        <Entry x:Name="DescriptionEntry" />
+        <Label Text="  Seleccione Fecha de reocojo  " />
+
+        <Picker x:Name="collectPicker"
+                ItemDisplayBinding="{Binding Date}"
+                ItemsSource="{Binding Id}"
+                SelectedIndexChanged="collectPicker_SelectedIndexChanged" />
+
+        <Label Text="   Definir hora de recojo " />
+        <Entry x:Name="Hora" />
+        <Label Text="    " />
+
+        <Button x:Name="Registrar" Text="Registrar Donación"  Clicked="Registrar_Clicked"/>
+       
+    </StackLayout>
+</ContentPage>

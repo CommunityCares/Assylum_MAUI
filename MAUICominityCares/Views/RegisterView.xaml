@@ -1,0 +1,36 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUICominityCares.Views.RegisterView"
+             Title="RegisterView">
+    <ScrollView>
+        <StackLayout Margin="20" Spacing="10">
+            <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged"
+                    Title="Selecciona tu región" FontSize="16">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Cochabamba</x:String>
+                        <x:String>Quillacollo</x:String>
+                        <x:String>Sacaba</x:String>
+                        <x:String>Tiquipaya</x:String>
+                        <x:String>Colcapirhua</x:String>
+                        <x:String>Vinto</x:String>
+                        <x:String>Sipe Sipe</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Entry x:Name="NombreEntry" Placeholder="Nombre" />
+            <Entry x:Name="ApellidoEntry" Placeholder="Apellido" />
+            <Entry x:Name="SegundoApellidoEntry" Placeholder="Segundo Apellido" />
+            <Entry x:Name="NitEntry" Placeholder="NIT" />
+            <Entry x:Name="EmailEntry" Placeholder="Email" />
+           
+             <Entry x:Name="AdrressEntry" Placeholder="Dirección" />
+            <Entry x:Name="PhoneEntry" Placeholder="Celular" />
+            <Entry x:Name="ContraseñaEntry" Placeholder="Contraseña" IsPassword="True" />
+
+            <Button Text="Registrar" x:Name="BtnRegistrar" Clicked="OnRegistrarClicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="8" Padding="12" FontSize="16" />
+
+            <Button Text="Volver" x:Name="BtnRegresar" Clicked="BtnRegresar_Clicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="8" Padding="12" FontSize="16" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
